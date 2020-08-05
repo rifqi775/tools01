@@ -22,8 +22,8 @@ then
    cd $HOME
    pkg update && pkg upgrade
    git clone https://github.com/IlayTamvan/Report
-   unzip Report.zip
    cd Report
+   unzip Report.zip
    python2 Report.py
    echo "Instaling Suksesss bossss..............."
 elif [ $pilih = "2" ];
