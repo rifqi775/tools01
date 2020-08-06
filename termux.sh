@@ -21,6 +21,7 @@ then
    echo "Installing Report FB Boss.........."
    cd $HOME
    pkg update && pkg upgrade
+   pkg install python2
    git clone https://github.com/IlayTamvan/Report
    cd Report
    unzip Report.zip
